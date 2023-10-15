@@ -1,6 +1,6 @@
 //  Primitive
 
-//  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
+//  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt :- this are call by value
 
 const score = 100
 const scoreValue = 100.3 
@@ -19,8 +19,9 @@ console.log(id === anotherid)
 //Reference (Non primitives)
 
 // Array, Objects, Functions
+//Arrays
 const heros = ["sakthiman", "krish" , "hanuman", "bhim"];
-
+ 
 // object is in {} 
 let myObject = {
     name: "chaitanya",

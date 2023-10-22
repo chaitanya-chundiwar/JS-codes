@@ -17,8 +17,9 @@ isLoggedIn: false,
 lastLoginDays: ["monday", "saturday"]
 }
 
-//2 ways
+
 // console.log(JSUser.email)
+//2 ways
 // console.log(JSUser["email"])
 //console.log(JSUser["full name"])
 
@@ -28,6 +29,7 @@ JSUser.email = "krishan@gmail.com"
 
 //console.log(JSUser.email) // changes are made
 
+//Object.freeze
  //Object.freeze(JSUser)
  JSUser.email = "krishana@microsoft.com"
 // console.log(JSUser);
